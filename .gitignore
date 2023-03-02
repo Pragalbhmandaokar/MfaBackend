@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.idea/
+*.iml
+package-lock.json
+.env*
+logs/
+views/
+coverage/

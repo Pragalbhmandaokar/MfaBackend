@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "prettier", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "arrow-parens": ["error", "as-needed"],
+    "no-unused-vars": "error",
+    "no-console": ["error"],
+    "no-trailing-spaces": "warn",
+    "failOnError": 0,
+    "no-use-before-define": "error"
+  }
+}
